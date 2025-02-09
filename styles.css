@@ -225,3 +225,8 @@ button {
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+.fade-text {
+    opacity: 0;
+    transition: opacity 1.5s ease-in;
+}

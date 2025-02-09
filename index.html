@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Proposal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="musicPrompt" class="overlay">
+        <div class="prompt-box">
+            <h2>Would you like to play a romantic song? 🎶❤️</h2>
+            <button id="playMusicBtn">Yes</button>
+            <button id="skipMusicBtn">No</button>
+        </div>
+    </div>
+    
+    <audio id="loveSong" loop>
+        <source src="hawa.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    
+    
+    <div id="app">
+        <div id="balloon-container"></div>
+        <div class="proposal-card" id="proposalCard">
+            <div class="heart-icon">❤️</div>
+            <h1>Will you be my Valentine?</h1>
+            <img src="tenor2.gif" 
+                 alt="Valentine roses" 
+                 class="proposal-image">
+            <div class="buttons">
+                <button id="yesButton" class="yes-button">Yes</button>
+                <button id="noButton" class="no-button">No</button>
+            </div>
+        </div>
+
+        <div class="success-message" id="successMessage">
+            <div class="bouncing-heart">❤️</div>
+            <img src="tenor.gif">
+            <h1>Yaaay! I love you the square of infinity! ❤️</h1>
+            <p>
+                ...🌹You're not just my Valentine; you're my always and forever. My heart beats a little faster when I see you see ur pics, masseges, voice note , and my world feels complete with you in it. I can’t wait to cherish every moment by your side!💗...
+
+                🎀Somasree, you are the best thing that has ever happened to me. Your love is my favorite song, and my heart will keep playing it on repeat forever. Let’s make a lifetime of beautiful memories together! 🎶❤️...
+
+                🌸 I don’t need a perfect world, just a world where I can love you endlessly. Thank you for saying yes—now let's make every heartbeat a melody of love! 💞...
+
+
+                This is the beginning of our beautiful story together!💗🦋</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
